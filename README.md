@@ -11,7 +11,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/y/basic-login-signup-php.git
+git clone https://github.com/appaladeepak/phplogin-reg.git
 Change into the project directory:
 
 bash
@@ -32,6 +32,8 @@ CREATE TABLE IF NOT EXISTS `users` (
     `username` VARCHAR(50) NOT NULL UNIQUE,
     `password` VARCHAR(255) NOT NULL,
     `email` VARCHAR(100) NOT NULL UNIQUE
+    `address` VARCHAR(100) NOT NULL 
+    `Pphone` VARCHAR(100) NOT NULL 
 );
 Update the database configuration in config.php with your database details:
 
